@@ -1,1 +1,24 @@
-/* Tulis kode CSS kalian di bawah ini */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+    background-image: url("./assets/background-4.webp");
+    background-size: cover;
+  }
+  main {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+   
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+  }h1,
+  p {
+    color: black;
+  }
